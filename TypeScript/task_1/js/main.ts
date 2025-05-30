@@ -52,13 +52,13 @@ const teacher3: Teacher = {
       locationCell.textContent = student.location;
 
       const fullTimeEmployeeCell = document.createElement("td");
-      fullTimeEmployeeCell.textContent = student.fullTimeEmployee ? "Yes" : "No";
+      fullTimeEmployeeCell.textContent = student.fullTimeEmployee ? "true" : "false";
       
       const lastNameCell = document.createElement("td");
       lastNameCell.textContent = student.lastName;
 
       const contractCell = document.createElement("td");
-      contractCell.textContent = student.contract ? "Yes" : "No";
+      contractCell.textContent = student.contract ? "true" : "false";
 
       row.appendChild(contractCell);
       row.appendChild(firstNameCell);
